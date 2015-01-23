@@ -8,6 +8,7 @@ import 'dart:js' show JsArray, JsObject;
 import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
+import 'web_animations.dart';
 
 /// `core-animation` is a convenience element to use web animations with Polymer elements. It
 /// allows you to create a web animation declaratively. You can extend this class to create

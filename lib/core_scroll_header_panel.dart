@@ -8,6 +8,7 @@ import 'dart:js' show JsArray, JsObject;
 import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
+import 'core_resizable.dart';
 
 /// `core-scroll-header-panel` contains a header section and a content section.  The
 /// header is initially on the top part of the view but it scrolls away with the

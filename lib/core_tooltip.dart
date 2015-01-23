@@ -9,6 +9,7 @@ import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
 import 'core_focusable.dart';
+import 'core_resizable.dart';
 
 /// The `core-tooltip` element creates a hover tooltip centered for the content
 /// it contains. It can be positioned on the top|bottom|left|right of content using

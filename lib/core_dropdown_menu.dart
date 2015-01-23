@@ -8,6 +8,10 @@ import 'dart:js' show JsArray, JsObject;
 import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'core_dropdown_base.dart';
+import 'core_a11y_keys.dart';
+import 'core_focusable.dart';
+import 'core_icon.dart';
+import 'core_icons.dart';
 
 /// `core-dropdown-menu` works together with `core-dropdown` and `core-selector` to
 /// implement a drop-down menu. The currently selected item is displayed in the

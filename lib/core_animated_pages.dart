@@ -8,6 +8,7 @@ import 'dart:js' show JsArray, JsObject;
 import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'core_selector.dart';
+import 'core_resizable.dart';
 
 /// `core-animated-pages` selects one of its children "pages" to show and runs a transition
 /// when switching between them. The transitions are designed to be pluggable, and can

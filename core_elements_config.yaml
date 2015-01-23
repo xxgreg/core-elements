@@ -61,6 +61,7 @@ files_to_generate:
   - core-overlay/core-overlay-layer.html
   - core-pages/core-pages.html
   - core-range/core-range.html
+  - core-resizable/core-resizable.html
   - core-scaffold/core-scaffold.html
   - core-scroll-header-panel/core-scroll-header-panel.html
   - core-scroll-threshold/core-scroll-threshold.html

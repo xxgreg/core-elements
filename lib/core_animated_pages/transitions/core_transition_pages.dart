@@ -8,6 +8,7 @@ import 'dart:js' show JsArray, JsObject;
 import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import '../../core_transition.dart';
+import '../../core_style.dart';
 
 /// `core-transition-pages` represents a page transition, which may include CSS and/or
 /// script. It will look for a `core-style` element with the same `id` to install in the

@@ -8,6 +8,10 @@ import 'dart:js' show JsArray, JsObject;
 import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
+import 'core_toolbar.dart';
+import 'core_drawer_panel.dart';
+import 'core_header_panel.dart';
+import 'core_icon_button.dart';
 
 /// `core-scaffold` provides general application layout, introducing a
 /// responsive scaffold containing a header, toolbar, menu, title and

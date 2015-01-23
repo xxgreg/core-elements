@@ -8,6 +8,9 @@ import 'dart:js' show JsArray, JsObject;
 import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
+import 'core_item.dart';
+import 'core_menu.dart';
+import 'core_collapse.dart';
 
 /// Use to create nested menus inside of `core-menu` elements.
 ///

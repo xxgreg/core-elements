@@ -8,6 +8,7 @@ import 'dart:js' show JsArray, JsObject;
 import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'core_dropdown_base.dart';
+import 'core_a11y_keys.dart';
 
 /// `core-menu-button` works together with a button and `core-dropdown` to implement
 /// an button that displays a drop-down when tapped on.

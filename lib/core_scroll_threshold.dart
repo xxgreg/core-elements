@@ -73,12 +73,12 @@ class CoreScrollThreshold extends HtmlElement with DomProxyMixin, PolymerProxyMi
   set lowerTriggered(bool value) { jsElement[r'lowerTriggered'] = value; }
 
   /// Clear the upper threshold, following an `upper-trigger` event.
-  void clearUpper(bool waitForMutation) =>
-      jsElement.callMethod('clearUpper', [waitForMutation]);
+  void clearUpper() =>
+      jsElement.callMethod('clearUpper', []);
 
   /// Clear the lower threshold, following a `lower-trigger` event.
-  void clearLower(bool waitForMutation) =>
-      jsElement.callMethod('clearLower', [waitForMutation]);
+  void clearLower() =>
+      jsElement.callMethod('clearLower', []);
 }
 @initMethod
 upgradeCoreScrollThreshold() => registerDartType('core-scroll-threshold', CoreScrollThreshold);

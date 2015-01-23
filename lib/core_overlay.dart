@@ -8,6 +8,10 @@ import 'dart:js' show JsArray, JsObject;
 import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
+import 'core_transition.dart';
+import 'core_resizable.dart';
+import 'core_key_helper.dart';
+import 'core_overlay_layer.dart';
 
 /// The `core-overlay` element displays overlayed on top of other content. It starts
 /// out hidden and is displayed by setting its `opened` property to true.

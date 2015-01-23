@@ -8,6 +8,7 @@ import 'dart:js' show JsArray, JsObject;
 import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'core_meta.dart';
+import 'core_iconset.dart';
 
 /// The `core-iconset-svg` element allows users to define their own icon sets
 /// that contain svg icons. The svg icon elements should be children of the
