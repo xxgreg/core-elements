@@ -1,12 +1,13 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_tooltip`.
+@HtmlImport('package:core_elements/core_tooltip_nodart.html')
 library core_elements.core_tooltip;
 
 import 'dart:html';
 import 'dart:js' show JsArray, JsObject;
-import 'package:web_components/interop.dart' show registerDartType;
-import 'package:polymer/polymer.dart' show initMethod;
+import 'package:web_components/custom_element_proxy.dart';
+import 'package:web_components/html_import_annotation.dart';
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
 import 'core_focusable.dart';
 import 'core_resizable.dart';
@@ -60,6 +61,7 @@ import 'core_resizable.dart';
 ///         ...
 ///       </div>
 ///     </core-tooltip>
+@CustomElementProxy('core-tooltip')
 class CoreTooltip extends HtmlElement with DomProxyMixin, PolymerProxyMixin, CoreFocusable {
   CoreTooltip.created() : super.created();
   factory CoreTooltip() => new Element.tag('core-tooltip');
@@ -87,5 +89,3 @@ class CoreTooltip extends HtmlElement with DomProxyMixin, PolymerProxyMixin, Cor
   String get tipAttribute => jsElement[r'tipAttribute'];
   set tipAttribute(String value) { jsElement[r'tipAttribute'] = value; }
 }
-@initMethod
-upgradeCoreTooltip() => registerDartType('core-tooltip', CoreTooltip);

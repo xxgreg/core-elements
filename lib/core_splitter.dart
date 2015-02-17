@@ -1,12 +1,13 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_splitter`.
+@HtmlImport('package:core_elements/core_splitter_nodart.html')
 library core_elements.core_splitter;
 
 import 'dart:html';
 import 'dart:js' show JsArray, JsObject;
-import 'package:web_components/interop.dart' show registerDartType;
-import 'package:polymer/polymer.dart' show initMethod;
+import 'package:web_components/custom_element_proxy.dart';
+import 'package:web_components/html_import_annotation.dart';
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
 import 'core_resizable.dart';
 
@@ -37,6 +38,7 @@ import 'core_resizable.dart';
 ///       <core-splitter direction="up"></core-splitter>
 ///       <div flex>bottom</div>
 ///     </div>
+@CustomElementProxy('core-splitter')
 class CoreSplitter extends HtmlElement with DomProxyMixin, PolymerProxyMixin {
   CoreSplitter.created() : super.created();
   factory CoreSplitter() => new Element.tag('core-splitter');
@@ -60,5 +62,3 @@ class CoreSplitter extends HtmlElement with DomProxyMixin, PolymerProxyMixin {
   bool get allowOverflow => jsElement[r'allowOverflow'];
   set allowOverflow(bool value) { jsElement[r'allowOverflow'] = value; }
 }
-@initMethod
-upgradeCoreSplitter() => registerDartType('core-splitter', CoreSplitter);

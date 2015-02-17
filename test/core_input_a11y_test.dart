@@ -9,6 +9,7 @@ library core_input.a11y_test;
 
 import 'dart:html';
 
+import 'package:initialize/initialize.dart' as init;
 import 'package:polymer/polymer.dart';
 import 'package:unittest/unittest.dart';
 import 'package:unittest/html_config.dart' show useHtmlConfiguration;
@@ -17,25 +18,26 @@ import 'common.dart';
 
 void main() {
   useHtmlConfiguration();
+  init.run().then((_) {
+    initPolymer().run(() {
+      return Polymer.onReady.then((_) {
+        CoreInput i1 = querySelector('#input1');
+        CoreInput i2 = querySelector('#input2');
 
-  initPolymer().run(() {
-    return Polymer.onReady.then((_) {
-      CoreInput i1 = querySelector('#input1');
-      CoreInput i2 = querySelector('#input2');
-
-      test('aria-label set to placeholder', () {
-        expect(i1.attributes['aria-label'], 'label');
-        i1.setAttribute('placeholder', 'new label');
-        return flushLayoutAndRender().then((_) {
-          expect(i1.attributes['aria-label'], 'new label');
+        test('aria-label set to placeholder', () {
+          expect(i1.attributes['aria-label'], 'label');
+          i1.setAttribute('placeholder', 'new label');
+          return flushLayoutAndRender().then((_) {
+            expect(i1.attributes['aria-label'], 'new label');
+          });
         });
-      });
 
-      test('aria-disabled is set', () {
-        expect(i2.attributes.containsKey('aria-disabled'), true);
-        i2.attributes.remove('disabled');
-        return flushLayoutAndRender().then((_) {
-          expect(i2.attributes.containsKey('aria-disabled'), false);
+        test('aria-disabled is set', () {
+          expect(i2.attributes.containsKey('aria-disabled'), true);
+          i2.attributes.remove('disabled');
+          return flushLayoutAndRender().then((_) {
+            expect(i2.attributes.containsKey('aria-disabled'), false);
+          });
         });
       });
     });

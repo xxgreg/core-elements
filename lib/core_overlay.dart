@@ -1,12 +1,13 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_overlay`.
+@HtmlImport('package:core_elements/core_overlay_nodart.html')
 library core_elements.core_overlay;
 
 import 'dart:html';
 import 'dart:js' show JsArray, JsObject;
-import 'package:web_components/interop.dart' show registerDartType;
-import 'package:polymer/polymer.dart' show initMethod;
+import 'package:web_components/custom_element_proxy.dart';
+import 'package:web_components/html_import_annotation.dart';
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
 import 'core_transition.dart';
 import 'core_resizable.dart';
@@ -58,6 +59,7 @@ import 'core_overlay_layer.dart';
 /// `left` or `right`. In addition, css `margin` can be used to provide some space
 /// around the overlay. This can be used to ensure
 /// that, for example, a drop shadow is always visible around the overlay.
+@CustomElementProxy('core-overlay')
 class CoreOverlay extends HtmlElement with DomProxyMixin, PolymerProxyMixin {
   CoreOverlay.created() : super.created();
   factory CoreOverlay() => new Element.tag('core-overlay');
@@ -144,5 +146,3 @@ class CoreOverlay extends HtmlElement with DomProxyMixin, PolymerProxyMixin {
   void resizeHandler() =>
       jsElement.callMethod('resizeHandler', []);
 }
-@initMethod
-upgradeCoreOverlay() => registerDartType('core-overlay', CoreOverlay);

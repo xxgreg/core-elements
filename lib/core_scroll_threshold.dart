@@ -1,12 +1,13 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_scroll_threshold`.
+@HtmlImport('package:core_elements/core_scroll_threshold_nodart.html')
 library core_elements.core_scroll_threshold;
 
 import 'dart:html';
 import 'dart:js' show JsArray, JsObject;
-import 'package:web_components/interop.dart' show registerDartType;
-import 'package:polymer/polymer.dart' show initMethod;
+import 'package:web_components/custom_element_proxy.dart';
+import 'package:web_components/html_import_annotation.dart';
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
 
 /// `core-scroll-threshold` is a utility element that listens for `scroll` events from a
@@ -40,6 +41,7 @@ import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, D
 ///         this.$.threshold.clearLower();
 ///       }.bind(this));
 ///     }
+@CustomElementProxy('core-scroll-threshold')
 class CoreScrollThreshold extends HtmlElement with DomProxyMixin, PolymerProxyMixin {
   CoreScrollThreshold.created() : super.created();
   factory CoreScrollThreshold() => new Element.tag('core-scroll-threshold');
@@ -80,5 +82,3 @@ class CoreScrollThreshold extends HtmlElement with DomProxyMixin, PolymerProxyMi
   void clearLower() =>
       jsElement.callMethod('clearLower', []);
 }
-@initMethod
-upgradeCoreScrollThreshold() => registerDartType('core-scroll-threshold', CoreScrollThreshold);

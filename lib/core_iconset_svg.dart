@@ -1,12 +1,13 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_iconset_svg`.
+@HtmlImport('package:core_elements/core_iconset_svg_nodart.html')
 library core_elements.core_iconset_svg;
 
 import 'dart:html';
 import 'dart:js' show JsArray, JsObject;
-import 'package:web_components/interop.dart' show registerDartType;
-import 'package:polymer/polymer.dart' show initMethod;
+import 'package:web_components/custom_element_proxy.dart';
+import 'package:web_components/html_import_annotation.dart';
 import 'core_meta.dart';
 import 'core_iconset.dart';
 
@@ -39,6 +40,7 @@ import 'core_iconset.dart';
 /// element use the `applyIcon` method. For example:
 ///
 ///     iconset.applyIcon(iconNode, 'car');
+@CustomElementProxy('core-iconset-svg')
 class CoreIconsetSvg extends CoreMeta {
   CoreIconsetSvg.created() : super.created();
   factory CoreIconsetSvg() => new Element.tag('core-iconset-svg');
@@ -69,5 +71,3 @@ class CoreIconsetSvg extends CoreMeta {
   void updateIcons(String css, String method) =>
       jsElement.callMethod('updateIcons', [css, method]);
 }
-@initMethod
-upgradeCoreIconsetSvg() => registerDartType('core-iconset-svg', CoreIconsetSvg);

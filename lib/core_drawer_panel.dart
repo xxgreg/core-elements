@@ -1,12 +1,13 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_drawer_panel`.
+@HtmlImport('package:core_elements/core_drawer_panel_nodart.html')
 library core_elements.core_drawer_panel;
 
 import 'dart:html';
 import 'dart:js' show JsArray, JsObject;
-import 'package:web_components/interop.dart' show registerDartType;
-import 'package:polymer/polymer.dart' show initMethod;
+import 'package:web_components/custom_element_proxy.dart';
+import 'package:web_components/html_import_annotation.dart';
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
 import 'core_media_query.dart';
 import 'core_selector.dart';
@@ -72,6 +73,7 @@ import 'core_selector.dart';
 ///       <div drawer> Drawer panel... </div>
 ///       <div main> Main panel... </div>
 ///     </core-drawer-panel>
+@CustomElementProxy('core-drawer-panel')
 class CoreDrawerPanel extends HtmlElement with DomProxyMixin, PolymerProxyMixin {
   CoreDrawerPanel.created() : super.created();
   factory CoreDrawerPanel() => new Element.tag('core-drawer-panel');
@@ -123,5 +125,3 @@ class CoreDrawerPanel extends HtmlElement with DomProxyMixin, PolymerProxyMixin 
   void closeDrawer() =>
       jsElement.callMethod('closeDrawer', []);
 }
-@initMethod
-upgradeCoreDrawerPanel() => registerDartType('core-drawer-panel', CoreDrawerPanel);

@@ -1,12 +1,13 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_selection`.
+@HtmlImport('package:core_elements/core_selection_nodart.html')
 library core_elements.core_selection;
 
 import 'dart:html';
 import 'dart:js' show JsArray, JsObject;
-import 'package:web_components/interop.dart' show registerDartType;
-import 'package:polymer/polymer.dart' show initMethod;
+import 'package:web_components/custom_element_proxy.dart';
+import 'package:web_components/html_import_annotation.dart';
 import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, DomProxyMixin;
 
 /// The `<core-selection>` element is used to manage selection state. It has no
@@ -56,6 +57,7 @@ import 'package:custom_element_apigen/src/common.dart' show PolymerProxyMixin, D
 ///       <li>Green</li>
 ///       <li>Blue</li>
 ///     </selection-example>
+@CustomElementProxy('core-selection')
 class CoreSelection extends HtmlElement with DomProxyMixin, PolymerProxyMixin {
   CoreSelection.created() : super.created();
   factory CoreSelection() => new Element.tag('core-selection');
@@ -85,5 +87,3 @@ class CoreSelection extends HtmlElement with DomProxyMixin, PolymerProxyMixin {
   void toggle(item) =>
       jsElement.callMethod('toggle', [item]);
 }
-@initMethod
-upgradeCoreSelection() => registerDartType('core-selection', CoreSelection);

@@ -1,12 +1,13 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_animated_pages`.
+@HtmlImport('package:core_elements/core_animated_pages_nodart.html')
 library core_elements.core_animated_pages;
 
 import 'dart:html';
 import 'dart:js' show JsArray, JsObject;
-import 'package:web_components/interop.dart' show registerDartType;
-import 'package:polymer/polymer.dart' show initMethod;
+import 'package:web_components/custom_element_proxy.dart';
+import 'package:web_components/html_import_annotation.dart';
 import 'core_selector.dart';
 import 'core_resizable.dart';
 
@@ -211,6 +212,7 @@ import 'core_resizable.dart';
 ///       <section id="page1"></section>
 ///       <nested-page id="page2"></nested-page>
 ///     </core-animated-pages>
+@CustomElementProxy('core-animated-pages')
 class CoreAnimatedPages extends CoreSelector {
   CoreAnimatedPages.created() : super.created();
   factory CoreAnimatedPages() => new Element.tag('core-animated-pages');
@@ -226,5 +228,3 @@ class CoreAnimatedPages extends CoreSelector {
   get lastSelected => jsElement[r'lastSelected'];
   set lastSelected(value) { jsElement[r'lastSelected'] = (value is Map || value is Iterable) ? new JsObject.jsify(value) : value;}
 }
-@initMethod
-upgradeCoreAnimatedPages() => registerDartType('core-animated-pages', CoreAnimatedPages);
