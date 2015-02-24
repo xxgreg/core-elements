@@ -4,7 +4,6 @@
 //The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
 //Code distributed by Google as part of the polymer project is also
 //subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
-
 library core_ajax.progress_test;
 
 import 'dart:async';

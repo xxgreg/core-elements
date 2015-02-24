@@ -16,7 +16,7 @@
  *
  * @element core-xhr
  */
-
+@HtmlImport('core_xhr_dart_nodart.html')
 library core_elements.core_xhr_dart;
 
 import 'dart:html';
@@ -24,6 +24,7 @@ import 'dart:html';
 import 'package:polymer/polymer.dart';
 import 'package:quiver/core.dart';
 import 'package:quiver/strings.dart';
+import 'package:web_components/html_import_annotation.dart';
 
 typedef void ResponseHandler(response, HttpRequest req);
 
