@@ -100,3 +100,4 @@ deletion_patterns:
   # Uncomment these and rerun to run the demos under lib/src
   - ^webcomponentsjs$
   - ^paper-.*$
+  - .gitignore$
