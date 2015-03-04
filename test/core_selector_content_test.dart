@@ -26,7 +26,7 @@ class TestCoreSelector extends PolymerElement {
 void main() {
   useHtmlConfiguration();
 
-  initPolymer().run(() {
+  initPolymer().then((zone) => zone.run(() {
     Polymer.onReady.then((e) {
       var s = document.querySelector('test-core-selector') as TestCoreSelector;
       
@@ -75,5 +75,5 @@ void main() {
       });
       
     });
-  });
+  }));
 }

@@ -19,7 +19,7 @@ Completer done;
 void main() {
   useHtmlConfiguration();
 
-  initPolymer().run(() {
+  initPolymer().then((zone) => zone.run(() {
     return Polymer.onReady.then((_) {
       ajax = querySelector('core-ajax-dart') as CoreAjax;
 
@@ -171,7 +171,7 @@ void main() {
       });
 
     });
-  });
+  }));
 }
 
 void reset() {

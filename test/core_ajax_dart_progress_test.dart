@@ -18,7 +18,7 @@ Completer done = new Completer();
 void main() {
   useHtmlConfiguration();
 
-  initPolymer().run(() {
+  initPolymer().then((zone) => zone.run(() {
     return Polymer.onReady.then((_) {
 
       test('progress', () {
@@ -50,5 +50,5 @@ void main() {
         return done.future;
       });
     });
-  });
+  }));
 }
