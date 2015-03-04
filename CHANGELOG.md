@@ -2,6 +2,8 @@
   * Increase `polymer` and `custom_element_apigen` lower bounds. Now takes
     advantage of `@HtmlImport` so manual html imports are no longer required to
     use the elements, just a dart import will work.
+  * Add support for `font_roboto` outside of the src folder. Also added a dart
+    file for it which just includes the @HtmlImport.
 
 ## version 0.6.0+5
   * Increase quiver upper bound to <0.22.0.

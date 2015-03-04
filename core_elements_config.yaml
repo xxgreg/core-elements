@@ -75,6 +75,7 @@ files_to_generate:
   - core-tooltip/core-tooltip.html
   - core-transition/core-transition-css.html
   - core-transition/core-transition.html
+  - font-roboto/roboto.html
 deletion_patterns:
   - metadata\.html$
   - index\.html$
