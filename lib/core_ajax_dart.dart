@@ -18,7 +18,6 @@ import 'package:logging/logging.dart';
 import 'package:polymer/polymer.dart';
 import 'package:quiver/core.dart';
 import 'package:quiver/strings.dart';
-import 'package:web_components/html_import_annotation.dart';
 
 import 'core_xhr_dart.dart';
 
