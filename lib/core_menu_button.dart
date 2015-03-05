@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_menu_button`.
-@HtmlImport('package:core_elements/core_menu_button_nodart.html')
+@HtmlImport('core_menu_button_nodart.html')
 library core_elements.core_menu_button;
 
 import 'dart:html';

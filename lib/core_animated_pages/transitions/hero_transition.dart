@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `hero_transition`.
-@HtmlImport('package:core_elements/hero_transition_nodart.html')
+@HtmlImport('hero_transition_nodart.html')
 library core_elements.hero_transition;
 
 import 'dart:html';

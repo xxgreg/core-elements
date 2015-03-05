@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_resizable`.
-@HtmlImport('package:core_elements/core_resizable_nodart.html')
+@HtmlImport('core_resizable_nodart.html')
 library core_elements.core_resizable;
 
 import 'dart:html';

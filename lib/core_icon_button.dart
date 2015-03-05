@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_icon_button`.
-@HtmlImport('package:core_elements/core_icon_button_nodart.html')
+@HtmlImport('core_icon_button_nodart.html')
 library core_elements.core_icon_button;
 
 import 'dart:html';

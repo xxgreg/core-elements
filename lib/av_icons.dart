@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `av_icons`.
-@HtmlImport('package:core_elements/av_icons_nodart.html')
+@HtmlImport('av_icons_nodart.html')
 library core_elements.av_icons;
 
 import 'dart:html';

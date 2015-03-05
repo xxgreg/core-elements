@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `communication_icons`.
-@HtmlImport('package:core_elements/communication_icons_nodart.html')
+@HtmlImport('communication_icons_nodart.html')
 library core_elements.communication_icons;
 
 import 'dart:html';

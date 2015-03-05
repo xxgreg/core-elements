@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_drawer_panel`.
-@HtmlImport('package:core_elements/core_drawer_panel_nodart.html')
+@HtmlImport('core_drawer_panel_nodart.html')
 library core_elements.core_drawer_panel;
 
 import 'dart:html';

@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `social_icons`.
-@HtmlImport('package:core_elements/social_icons_nodart.html')
+@HtmlImport('social_icons_nodart.html')
 library core_elements.social_icons;
 
 import 'dart:html';

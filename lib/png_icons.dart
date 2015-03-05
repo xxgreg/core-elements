@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `png_icons`.
-@HtmlImport('package:core_elements/png_icons_nodart.html')
+@HtmlImport('png_icons_nodart.html')
 library core_elements.png_icons;
 
 import 'dart:html';

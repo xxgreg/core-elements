@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `device_icons`.
-@HtmlImport('package:core_elements/device_icons_nodart.html')
+@HtmlImport('device_icons_nodart.html')
 library core_elements.device_icons;
 
 import 'dart:html';

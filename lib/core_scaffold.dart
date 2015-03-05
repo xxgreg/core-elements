@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_scaffold`.
-@HtmlImport('package:core_elements/core_scaffold_nodart.html')
+@HtmlImport('core_scaffold_nodart.html')
 library core_elements.core_scaffold;
 
 import 'dart:html';

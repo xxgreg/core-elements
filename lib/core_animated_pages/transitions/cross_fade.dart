@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `cross_fade`.
-@HtmlImport('package:core_elements/cross_fade_nodart.html')
+@HtmlImport('cross_fade_nodart.html')
 library core_elements.cross_fade;
 
 import 'dart:html';

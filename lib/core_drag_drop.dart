@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_drag_drop`.
-@HtmlImport('package:core_elements/core_drag_drop_nodart.html')
+@HtmlImport('core_drag_drop_nodart.html')
 library core_elements.core_drag_drop;
 
 import 'dart:html';

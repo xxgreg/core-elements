@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_key_helper`.
-@HtmlImport('package:core_elements/core_key_helper_nodart.html')
+@HtmlImport('core_key_helper_nodart.html')
 library core_elements.core_key_helper;
 
 import 'dart:html';

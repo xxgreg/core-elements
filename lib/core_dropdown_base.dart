@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_dropdown_base`.
-@HtmlImport('package:core_elements/core_dropdown_base_nodart.html')
+@HtmlImport('core_dropdown_base_nodart.html')
 library core_elements.core_dropdown_base;
 
 import 'dart:html';

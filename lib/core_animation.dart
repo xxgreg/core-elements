@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `core_animation`.
-@HtmlImport('package:core_elements/core_animation_nodart.html')
+@HtmlImport('core_animation_nodart.html')
 library core_elements.core_animation;
 
 import 'dart:html';

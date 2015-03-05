@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `scale_up`.
-@HtmlImport('package:core_elements/scale_up_nodart.html')
+@HtmlImport('scale_up_nodart.html')
 library core_elements.scale_up;
 
 import 'dart:html';

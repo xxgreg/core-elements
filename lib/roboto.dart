@@ -1,7 +1,7 @@
 // DO NOT EDIT: auto-generated with `pub run custom_element_apigen:update`
 
 /// Dart API for the polymer element `roboto`.
-@HtmlImport('package:core_elements/roboto_nodart.html')
+@HtmlImport('roboto_nodart.html')
 library core_elements.roboto;
 
 import 'dart:html';
